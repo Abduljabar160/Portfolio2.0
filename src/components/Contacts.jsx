@@ -14,7 +14,7 @@ const Contacts = () => {
         <div className="text-center tracking-tighter">
             <p className="my-4">{CONTACT.address}</p>
             <p className="my-4">{CONTACT.phoneNo}</p>
-            <a href="#" className="border-b">{CONTACT.email}</a>
+            <a href="https://mail.google.com/mail/u/1/#inbox" className="border-b">{CONTACT.email}</a>
         </div>
     </div>
   )

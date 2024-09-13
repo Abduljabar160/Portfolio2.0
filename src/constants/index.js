@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/project-1.png";
-// import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.jpg";
 // import project3 from "../assets/projects/project-3.jpg";
 // import project4 from "../assets/projects/project-4.jpg";
 
@@ -25,6 +25,14 @@ export const PROJECTS = [
     description:
       "A fully functional app for who needs a blood in Ilocos sur, this is use to request or donate a blood in respected BloodBanks our area",
     technologies: ["ReactNative", "NodeJs Express"],
+  },
+
+  {
+    title: "Poisonus Plants Detector",
+    image: project2,
+    description:
+      "Poisonous Plant Detection in Ilocos Sur involves identifying harmful plant species in the region using image recognition technology. This project aims to create a system capable of distinguishing toxic plants, preventing accidental exposure and promoting safety, especially in rural areas where contact with dangerous flora is more common. By leveraging AI and local knowledge, the initiative contributes to environmental awareness and public health in Ilocos Sur.",
+    technologies: ["Java", "Firebase"],
   },
 ];
 
